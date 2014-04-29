@@ -1,0 +1,13 @@
+extract_maps.py is from the pokemontools package.
+
+blocksearch.py will dump CSV data of where all the grass and water patches are.
+    TODO: I forgot that it sets all the route_ids to 1. Whoops. It needs to look
+    at the map's name according to extract_maps and figure out the location_id
+    from a Pokedex query.
+
+text_translator.py will translate from hex to text or the other way around
+according to the text table defined in text-table.txt.
+    This is probably reusable.
+
+I will definitely need to rip the map images, or this is useless. That's my next
+task.
